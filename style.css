@@ -5,6 +5,7 @@
 }
 :root {
     --sidebar-width: 300px;
+    scroll-behavior: smooth;
 }
 
 body {
