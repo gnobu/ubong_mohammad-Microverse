@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --sidebar-width: 300px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: var(--sidebar-width);
+    border-right: 1px solid #b6b6b6;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+main {
+    margin-left: var(--sidebar-width);
+}
+
+.main-section {
+    margin-bottom: 2rem;
+}
+
+.section_title {
+    margin-bottom: 1rem;
+}
